@@ -82,14 +82,14 @@ h5{
     letter-spacing: 0%;
     text-align: center;
 }
-p{
+.p{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     /* line-height: 26px; */
     letter-spacing: 0%;
-    text-align: left;
+    text-align: center;
 }
 .pw{
     color: var(--white);
@@ -98,7 +98,7 @@ p{
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
-    text-align: left;
+    text-align: center;
 }
 
 /* buttons */
@@ -145,6 +145,11 @@ p{
         height: 55px;
         padding: 15px 18px ;
         margin: 0px 14px;
+        border-radius: 8px;
+        color: black;
+        background-color: white;
+        font-size: 16px;
+        font-weight: 600;
 }
 /* navbar style */
 nav{
@@ -179,7 +184,6 @@ nav{
 
 /* blogsc styles */
 .blog{
-
     padding: 80px 97px 80px 97px; 
     display: flex;
     flex-direction: column;
@@ -189,15 +193,155 @@ nav{
 }
 .blograp{
     margin: 50px 0;
+    width: 946px;
+    height:auto;
+    padding: 25px;
 
 }
 .blogs{
-    width: 946px;
+   
+    width: 100%;
     height: 336px;
     display: flex;
     justify-content: space-between;
     align-content: center;
     align-items: center;
     margin: 30px 0;
+
  }
- 
+ /* video section styles */
+ /* .media{
+    display: flex;
+    align-content: center;
+ } */
+ .mediawrap{
+    margin: 0 auto;
+ }
+.videowrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* LANGUAGE styles */
+.lang  img{
+    width: 56px;
+    height: 56px;
+}
+.lang{
+    display: flex;
+    flex-direction: column;
+}
+.langwrap{
+         margin: 0 auto;
+         display: flex;
+         flex-direction: row;
+         margin-top: 50px;
+}
+.cards{
+    
+        width: 364px;
+        height: 299px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 40px;
+        margin: 0px 24px;
+}
+.one{
+    background-color: var(--html);
+    border-radius: 8px;
+    padding-bottom: 15px;
+}
+.two{
+    background-color: var(--css);
+    border-radius: 8px;
+}
+.three{
+    background-color: var(--js);
+    border-radius: 8px;
+}
+.langtxt{
+    margin-top: 70px;
+}
+
+/* next target section styles */
+
+.next{
+    display: flex;
+    flex-direction: column;
+}
+.nextwrap{
+    margin: 0 auto;
+}
+.ncard{
+
+        width: 1140px;
+        height: 219px;
+        padding: 40px;
+        margin: 50px 0;
+        border: 1px solid rgba(13, 19, 33, 0.15);
+        border-radius: 16px;
+        background: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+ }
+.next img {
+            width: 144px;
+           height: auto;
+}
+
+
+
+/* footer section styles */
+
+/* form/support sectuon style */
+.form{
+    margin: 100px 0;
+}
+.formwrap{
+    background-image: url(/assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1140px;
+    height: 313px;
+    padding: 64px 48px;
+    border-radius: 16px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.formwrap input{
+    width: 548px;
+    height: 57px;
+    border-radius: 16px;
+    background-color: var(--white);
+}
+.formwrap ::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.formbtn{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* social img */
+.socialwrap{
+    margin: 0 auto;
+    width: 1140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.social img {
+    width: 36px;
+    height: 36px;
+}
